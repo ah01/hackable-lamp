@@ -28,13 +28,13 @@ const char* password = "***";
 const char* ap_ssid = "Lampicka";
 const char *myHostname = "lampicka";
 
-const char* off = "11111F0FFF0FS";
-const char* on = "11111F0FFFF0S";
+const char* off = "111110FFFF0FS";
+const char* on = "111110FFFFF0S";
 
 bool state = false;
 
 const byte DNS_PORT = 53;
-IPAddress apIP(192, 168, 4, 1);
+IPAddress apIP(192, 168, 1, 1);
 IPAddress netMsk(255, 255, 255, 0);
 
 DNSServer dnsServer;

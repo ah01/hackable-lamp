@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Lampička</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='shortcut icon' href='/demo/favicon.ico'/>
+
+    <!-- Android -->
+    <meta name="theme-color" content="#BD3632">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+
+    <!-- Apple -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='mobile-web-app-capable' content='yes'>
+
+    <!-- MS -->
+    <meta name="msapplication-TileColor" content="#BD3632">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  </head>
+  <body>
+    <div class="head">
+      <h1>WiFi Lampička</h1>
+    </div>
+
+    <div class="content">
+      <!-- Login form -->
+      <div id="login" class="">
+        <form id="login-form">
+          <label for="user-password">Zadejte heslo</label>
+          <input type="password" id="user-password">
+          <input type="submit" value="Přihlásit">
+        </form>
+
+        <div class="footer">
+          <a href="source.html">&pi;</a>
+        </div>
+      </div>
+
+      <!-- Controll GUI -->
+      <div id="controll" class="hide">
+        <div class="toolbar">
+          <a href="javascript:;" id="logout-button">Odhlásit</a>
+        </div>
+        <div id="light">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 200 240.74075" id="svg9477" version="1.1" inkscape:version="0.91 r13725"><g inkscape:label="Vrstva 1" inkscape:groupmode="layer" id="layer1" transform="translate(8.8393897e-6,-811.62144)"><g id="svg-shine"><g transform="matrix(2.2739839,0,0,-2.2739839,100.00268,846.17462)" id="g8410"><path inkscape:connector-curvature="0" id="path8412" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 1.943,0 3.513,1.573 3.513,3.512 l 0,8.171 c 0,1.94 -1.57,3.512 -3.513,3.512 -1.941,0 -3.511,-1.572 -3.511,-3.512 l 0,-8.171 C -3.511,1.573 -1.941,0 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,47.59237,857.8106)" id="g8414"><path inkscape:connector-curvature="0" id="path8416" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0.69,-0.947 1.76,-1.45 2.848,-1.45 0.713,0 1.436,0.219 2.06,0.671 1.568,1.139 1.918,3.335 0.779,4.904 l -4.802,6.613 c -1.142,1.568 -3.334,1.921 -4.907,0.779 C -5.589,10.378 -5.939,8.182 -4.8,6.613 L 0,0 Z" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,152.40072,974.88755)" id="g8418"><path inkscape:connector-curvature="0" id="path8420" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 C -1.139,1.568 -3.334,1.915 -4.906,0.776 -6.472,-0.364 -6.822,-2.56 -5.68,-4.129 l 4.805,-6.613 c 0.685,-0.945 1.756,-1.448 2.844,-1.448 0.715,0 1.436,0.218 2.06,0.671 1.568,1.141 1.918,3.337 0.776,4.906 L 0,0 Z" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,28.144113,884.60131)" id="g8422"><path inkscape:connector-curvature="0" id="path8424" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -7.773,2.528 c -1.862,0.6 -3.826,-0.41 -4.427,-2.255 -0.601,-1.843 0.408,-3.826 2.253,-4.426 l 7.773,-2.528 c 0.363,-0.117 0.726,-0.174 1.086,-0.174 1.482,0 2.857,0.944 3.341,2.429 C 2.853,-2.583 1.845,-0.6 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,194.4749,938.64958)" id="g8426"><path inkscape:connector-curvature="0" id="path8428" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -7.771,2.524 c -1.846,0.596 -3.825,-0.411 -4.425,-2.254 -0.6,-1.846 0.411,-3.827 2.256,-4.427 l 7.773,-2.524 c 0.36,-0.117 0.723,-0.173 1.083,-0.173 1.482,0 2.857,0.945 3.341,2.428 C 2.856,-2.58 1.846,-0.6 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,23.206621,932.90959)" id="g8430"><path inkscape:connector-curvature="0" id="path8432" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -7.776,-2.521 c -1.844,-0.598 -2.857,-2.579 -2.256,-4.424 0.48,-1.485 1.858,-2.43 3.34,-2.43 0.357,0 0.725,0.057 1.085,0.173 l 7.774,2.521 c 1.846,0.598 2.858,2.58 2.257,4.424 C 3.828,-0.413 1.862,0.596 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,174.33899,900.18833)" id="g8434"><path inkscape:connector-curvature="0" id="path8436" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0.36,0 0.723,0.057 1.084,0.173 l 7.771,2.525 c 1.846,0.6 2.856,2.581 2.257,4.426 -0.601,1.844 -2.59,2.851 -4.424,2.255 L -1.085,6.855 C -2.93,6.255 -3.941,4.273 -3.341,2.429 -2.858,0.945 -1.482,0 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,47.602812,974.8846)" id="g8438"><path inkscape:connector-curvature="0" id="path8440" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -4.81,-6.609 c -1.142,-1.569 -0.794,-3.766 0.776,-4.906 0.621,-0.454 1.345,-0.672 2.061,-0.672 1.088,0 2.158,0.501 2.844,1.445 L 5.68,-4.133 C 6.822,-2.564 6.475,-0.367 4.904,0.774 3.341,1.921 1.134,1.569 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,150.40371,833.39278)" id="g8442"><path inkscape:connector-curvature="0" id="path8444" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -4.802,-6.612 c -1.139,-1.57 -0.789,-3.766 0.779,-4.905 0.624,-0.452 1.347,-0.671 2.06,-0.671 1.088,0 2.159,0.503 2.847,1.45 l 4.802,6.613 C 6.825,-2.556 6.475,-0.36 4.907,0.779 3.329,1.924 1.142,1.571 0,0" /></g></g><g id="g14091"><g transform="matrix(2.2739839,0,0,-2.2739839,121.34221,1007.9372)" id="g8402"><path inkscape:connector-curvature="0" id="path8404" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -18.781,0 c -1.454,0 -2.634,-1.18 -2.634,-2.634 0,-1.454 1.18,-2.634 2.634,-2.634 l 18.781,0 c 1.454,0 2.635,1.18 2.635,2.634 C 2.635,-1.18 1.454,0 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,88.990683,1042.8456)" id="g8406"><path inkscape:connector-curvature="0" id="path8408" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0.357,-2.365 2.377,-4.185 4.843,-4.185 2.463,0 4.487,1.82 4.843,4.185 3.224,0.19 5.786,2.84 5.786,6.112 l -21.272,0 C -5.8,2.838 -3.23,0.187 0,0" /></g><g transform="matrix(2.2739839,0,0,-2.2739839,157.6857,916.64424)" id="g8446"><path inkscape:connector-curvature="0" id="path8448" style="fill:#4b4b4b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,14.012 -11.358,25.372 -25.369,25.372 -14.014,0 -25.373,-11.36 -25.373,-25.372 0,-5.911 2.033,-11.339 5.43,-15.648 2.976,-3.776 5.794,-7.899 8.237,-12.047 l 0,-8.427 23.267,0 0,8.204 c 2.42,4.035 5.549,8.68 8.376,12.266 C -2.033,-11.342 0,-5.915 0,0" /></g></g></g></svg>
+          <span id="status-text">...</span>
+        </div>
+        <div class="buttons">
+          <button id="on-button">On</button>
+          <button id="off-button">Off</button>
+        </div>
+        <div class="promo">
+          <p>Tato aplikace není bezpečná!</p>
+          <p>Chceš to dělat pořádně?</p>
+          <p><img src="profinit.png" height="31" alt="Profinit"></p>
+          <p><a href="mailto:kariera@profinit.eu">kariera@profinit.eu</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="zepto.min.js"></script>
+    <script type="text/javascript" src="md5.js"></script>
+    <script type="text/javascript">
+
+      function login(e)
+      {
+        var password = $("#user-password").val();
+
+        if (md5(password) === "10bccea10183469385f61e19c68bb84f"){
+          authorize();
+        } else {
+          alert("Špatné heslo");
+        }
+
+        e.preventDefault();
+      }
+
+      function logout()
+      {
+        document.cookie = "auth=0; expires=" + new Date(0).toGMTString();
+        location.reload();
+      }
+
+      function authorize()
+      {
+        // remember user (for 1 hour)
+        document.cookie = "auth=1; expires=" + new Date(+new Date() + 3600 * 1000).toGMTString();
+
+        // show gui
+        $("#login").hide();
+        $("#controll").show();
+      }
+
+      function turn(state)
+      {
+        get(state, update);
+      }
+
+      function get(cmd, fn)
+      {
+        $.get("api/" + cmd + "?rnd=" + (+new Date()), fn);
+      }
+
+      function update(value)
+      {
+        if (value == "1")
+        {
+          $("#light").removeClass("off").addClass("on");
+          $("#status-text").text("Svítí");
+          $("#svg-shine").show();
+        }
+        else
+        {
+          $("#light").removeClass("on").addClass("off");
+          $("#status-text").text("Zhasnuto");
+          $("#svg-shine").hide();
+        }
+      }
+
+      // init event handlers
+      $("#login-form").submit(login);
+      $("#logout-button").click(logout);
+      $("#on-button").click(function() { turn("on"); });
+      $("#off-button").click(function() { turn("off"); });
+
+      // is user already authorized?
+      if (document.cookie.indexOf("auth=1") >= 0) authorize();
+
+      // load current state
+      get("state", update);
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zdrojový kód lampičky</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel='shortcut icon' href='/demo/favicon.ico'/>
+
+    <!-- Android -->
+    <meta name="theme-color" content="#BD3632">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+
+    <!-- Apple -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='mobile-web-app-capable' content='yes'>
+
+    <!-- MS -->
+    <meta name="msapplication-TileColor" content="#BD3632">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+</head>
+<body>
+
+    <div class="head">
+        <h1><a href="/">Zdrojový kód</a></h1>
+    </div>
+
+    <div id="code"></div>
+
+    <script type="text/javascript" src="zepto.min.js"></script>
+    <script type="text/javascript">
+
+    $.get("index.html", function (code) {
+        $("#code").text(code);
+    })
+
+    </script>
+
+</body>
+</html>

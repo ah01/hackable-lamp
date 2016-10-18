@@ -1,0 +1,124 @@
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body, input {
+    font: 1rem/1.5 sans-serif;
+}
+
+.head {
+    background-color: #BD3632;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+button, input[type=submit] {
+    font-size: 1.8rem;
+    padding: 0.6rem 1.2rem;
+    margin: 0.6rem;
+    font-weight: bold;
+}
+
+.content {
+}
+
+.footer {
+    margin: 2rem 0 0.3rem 0;
+    padding: 0.4rem 1.6rem;
+    font-size: 1.2rem;
+    border-top: solid #aaa 1px;
+    text-align: right;
+}
+
+.toolbar {
+  text-align: right;
+  margin: 0.2rem 0.6rem;
+}
+
+#login{
+    text-align: center;
+}
+
+    #login label, #login input{
+        display: block;
+        margin: 1.2rem auto;
+    }
+
+#control {
+}
+
+#code {
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    font-family: monospace;
+    white-space: pre;
+    line-height: 140%;
+}
+
+#light {
+    max-width: 200px;
+    margin: 1.2rem auto;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#on-button {
+    color: green;
+}
+
+#off-button {
+    color: red;
+}
+
+.hide{
+    display: none;
+}
+
+.on {
+    color: green;
+}
+
+.off {
+    color: red;
+}
+
+.promo {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem 1.6rem 0.3rem 1.6rem;
+  font-size: 1.2rem;
+  color: rgb(97,99,101);
+  border-top: solid #aaa 1px;
+}
+
+.promo p{
+  margin: 0.4rem;
+  padding: 0;
+}
+
+.promo a{
+  font-size: 1rem;
+}
+
+.promo img {
+  margin-top: 15px;
+}
